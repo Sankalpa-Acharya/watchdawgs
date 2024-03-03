@@ -1,0 +1,21 @@
+**/node_modules/
+node_modules/
+
+# Ignore build artifacts for React
+client/build/
+client/dist/
+
+# Ignore environment variables file
+.env
+
+# Ignore logs and other runtime generated files
+*.log
+npm-debug.log*
+
+# Ignore Visual Studio Code configuration files
+.vscode/
+
+# Ignore Express generated files (if any)
+# Adjust this if your Express project generates additional files you want to ignore
+# e.g., if your Express app generates a 'dist' directory
+# dist/
